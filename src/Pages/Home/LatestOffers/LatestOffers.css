@@ -1,0 +1,10 @@
+.latest{
+    font-weight: bold;
+}
+
+@media screen and (max-width:281px){
+    .latest, .latest h5{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}

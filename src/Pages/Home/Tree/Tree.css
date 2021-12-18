@@ -1,0 +1,46 @@
+.trees-card h4, .price, .custom-button{
+    font-family: 'Oswald', sans-serif;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    color: #82C91E;
+}
+
+.custom-tree-card{
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+}
+
+.custom-tree-card:hover{
+    border: 2px solid rgba(248, 12, 114, 0.3);
+}
+
+.custom-body{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.custom-tree-card img{
+    transition: 1s;
+}
+
+.custom-tree-card img:hover{
+    transform: scale(1.1);
+}
+.custom-tree-card:hover .custom-body{
+    display: block;
+}
+
+.custom-button{
+    background: #82C91E;
+}

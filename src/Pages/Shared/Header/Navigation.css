@@ -1,0 +1,14 @@
+.nav-bar{
+    background-color: white;
+}
+
+.nav-color{
+    color: rgb(1, 151, 119) !important;
+    font-weight: bold;
+}
+
+
+.user-name{
+    color: rgb(1, 151, 119);
+    font-weight: bold;
+}

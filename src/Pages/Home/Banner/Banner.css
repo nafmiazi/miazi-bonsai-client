@@ -1,0 +1,62 @@
+.banner1 h1, .banner2 h1, .banner3 h1{
+    font-size: 60px;
+}
+
+.banner1, .banner2, .banner3{
+    margin-left: -150px;
+}
+.text-color{
+    color: rgb(10, 8, 97);
+}
+
+/* Animation */
+.banner1 h1, .banner2 h1, .banner3 h1{
+    animation: header1 1s;
+}
+.banner1 h4, .banner2 h4, .banner3 h4{
+    animation: header4 2s;
+}
+
+@keyframes header1 {
+    0%{
+        transform: translate(0px, 100px);
+    }
+    
+    100%{
+        transform: translate(0px, 0px);
+
+    }
+}
+@keyframes header4 {
+    0%{
+        transform: translate(200px, 0px);
+    }
+    
+    100%{
+        transform: translate(0px, 0px);
+
+    }
+}
+
+.banner2 h1{
+    font-size: 45px;
+}
+
+@media screen and (max-width:600px) {
+    .banner1, .banner2, .banner3{
+        margin-left: -80px;
+    }
+
+    .banner1{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .banner1 h1,.banner2 h1,.banner3 h1{
+        font-size: 20px;
+    }
+
+    .banner1 h4,.banner2 h4,.banner3 h4{
+        font-size: 12px;
+    }
+}
