@@ -37,9 +37,9 @@ const AllTrees = () => {
                     <Table striped bordered hover responsive>
                         <thead className="table-secondary">
                             <tr>
-                                <th className="text-start">Model</th>
+                                <th className="text-start">Name</th>
                                 <th>Price</th>
-                                <th>Condition</th>
+                                <th>Height</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -48,7 +48,7 @@ const AllTrees = () => {
                                 allTrees.map(trees => <tr className="table-secondary" key={trees._id}>
                                     <td className="text-start">{trees.name}</td>
                                     <td>{trees.price}</td>
-                                    <td className="text-start">{trees.condition}</td>
+                                    <td className="text-center">{trees.height}</td>
                                     <td className="text-center"><button onClick={() => handleDelete(trees._id)} className="btn btn-sm btn-danger me-2 mb-2 mb-md-0">Cancel Trees</button></td>
                                 </tr>)
                             }

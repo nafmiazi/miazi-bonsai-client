@@ -48,8 +48,8 @@ const AllOrders = () => {
                     <Table striped bordered hover responsive>
                         <thead className="table-secondary">
                             <tr>
+                                <th>User</th>
                                 <th>Name</th>
-                                <th>Model</th>
                                 <th>Email</th>
                                 <th>Address</th>
                                 <th>Price</th>
