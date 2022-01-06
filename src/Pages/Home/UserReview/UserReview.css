@@ -1,3 +1,7 @@
 .card-back-color{
     background-color: rgb(86, 1, 114);
 }
+
+.card-back-color:hover{
+    background-color: rgb(1, 20, 63);
+}
