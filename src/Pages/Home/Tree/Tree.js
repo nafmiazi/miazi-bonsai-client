@@ -7,7 +7,7 @@ const Tree = (params) => {
 
     return (
         <div className="trees-card col-md-6 col-lg-4 gy-4 gx-4">
-            <div className="card custom-tree-card text-start" data-aos="fade-up">
+            <div className="card custom-tree-card text-start" data-aos="fade-up" data-aos-duration="1000">
                 <img src={img} className="card-img-top rounded-0" height="350px" alt="..." />
                 <div className="card-body custom-body">
                     <h4 className="card-title text-white">{name}</h4>

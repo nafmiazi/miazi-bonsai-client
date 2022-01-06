@@ -14,7 +14,7 @@ const LatestOffers = () => {
                     </div>
                     <div className="row latest row-cols-1 row-cols-md-2 g-4">
                         <div className="col">
-                            <div className="card bg-dark text-white border-0">
+                            <div className="card bg-dark text-white border-0" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
                                 <img src={arrival1} className="card-img" alt="..."/>
                                 <div className="card-img-overlay pt-md-5 ps-md-4">
                                     <h5 className="card-title text-secondary text-start">NEW ARRIVAL</h5>
@@ -26,7 +26,7 @@ const LatestOffers = () => {
                         </div>
 
                         <div className="col">
-                            <div className="card bg-dark text-white border-0">
+                            <div className="card bg-dark text-white border-0" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">
                                 <img src={arrival2} className="card-img" alt="..."/>
                                 <div className="card-img-overlay pt-md-5 ps-md-4">
                                     <h5 className="card-title text-secondary text-start">NEW ARRIVAL</h5>
