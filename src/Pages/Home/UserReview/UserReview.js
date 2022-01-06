@@ -7,7 +7,7 @@ const UserReview = (params) => {
 
     return (
         <div className="trees-card col-md-6 col-lg-4 gy-4 gx-4">
-            <div className="card mb-3 card-back-color h-100">
+            <div className="card mb-3 card-back-color h-100" data-aos="fade-up" data-aos-duration="1000">
                 <h3 className="card-header bg-transparent border-0"><i className="fas fa-2x fa-user-tie rounded-circle text-warning pt-3"></i></h3>
                 <h5 className="text-warning">{name} says</h5>
                 <div className="card-body text-white">
