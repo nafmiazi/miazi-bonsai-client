@@ -3,9 +3,6 @@
 ## [Live Site Link](https://miazi-bonsai.web.app)
 Please Click this or above link to visit my site: https://miazi-bonsai.web.app
 
-* **Admin Email: admin@admin.com**
-* **Admin Password: 123456**
-
 ## About this site
 
 This website is developed for:
